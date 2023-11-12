@@ -132,12 +132,13 @@ local sNames = {
 }
 local sValues = {
 	{
-		'Jumping for robux!',
-		'1R$ Donated = 1 jump!'
-	},
+		'🔥Shirts For Sell!🔥',
+                '🤫Wanna be Drippy?, Check out my Booth!🤫',
+                '🫵Looking for Some Shirts?, Check out my Booth😊'
+},
 	{
-		'Thank you',
-		'ty :D',
+		'Thank you so much!',
+		'tysss! :D',
 		'tysm!!'
 	}
 }
@@ -345,7 +346,7 @@ infoMain:AddLabel('Pls Donate | overhaul by szze#6220')
 infoMain:AddLabel('Config saves every 10 seconds')
 
 boothTextSettings:AddInput('boothTextTextbox', {
-	Default = "Shirts for Sell!",
+	Default = "💲🔥 Shirts For Sell 🔥💲",
 	Numeric = false,
 	Finished = true,
 	Text = 'Booth Text',
@@ -541,9 +542,9 @@ miscMain:AddDivider()
 
 miscMain:AddSlider('BegDelaySlid', {
 	Text = 'Beg Delay (S)',
-	Default = 30,
+	Default = 10,
 	Min = 10,
-	Max = 30,
+	Max = 600,
 	Rounding = 0,
 	Compact = false,
 })
